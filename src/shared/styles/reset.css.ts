@@ -60,7 +60,6 @@ globalStyle("button", {
   boxSizing: "border-box",
   // 텍스트 선택 방지
   userSelect: "none",
-  border: "1px solid red",
 });
 
 /* ===== 입력 요소 스타일 초기화 ===== */

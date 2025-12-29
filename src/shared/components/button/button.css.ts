@@ -27,24 +27,25 @@ export const buttonVariants = styleVariants({
     },
   ],
 
-  // error: [
-  //   base,
-  //   {
-  //     color: themeVars.color.white,
-  //     backgroundColor: themeVars.color.error,
+  border: [
+    base,
+    {
+      color: themeVars.color.primary500,
+      border: `1px solid ${themeVars.color.primary500}`,
 
-  //     selectors: {
-  //       "&:not(:disabled):active": {
-  //         color: themeVars.color.error,
-  //         backgroundColor: themeVars.color.errorSurface,
-  //       },
-  //       "&:disabled": {
-  //         background: themeVars.color.gray200,
-  //         color: themeVars.color.gray400,
-  //       },
-  //     },
-  //   },
-  // ],
+      selectors: {
+        "&:not(:disabled):active": {
+          backgroundColor: themeVars.color.primary400,
+          border: `1px solid ${themeVars.color.primary500}`,
+        },
+        "&:disabled": {
+          backgroundColor: themeVars.color.white,
+          color: themeVars.color.gray400,
+          border: `1px solid ${themeVars.color.gray300}`,
+        },
+      },
+    },
+  ],
 
   gray_fill: [
     base,

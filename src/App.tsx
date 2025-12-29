@@ -5,8 +5,10 @@ function App() {
   return (
     <ThemeProvider>
       <p>바닐라 익스트랙 스타일 적용</p>
-      <button>버튼 스타일 초기화 됐나?</button>
-      <Button>이건 버튼 컴포넌트야</Button>
+      <Button>primary button component</Button>
+      <Button variant="border">border button component</Button>
+      <Button variant="gray_fill" size="sm" >gray fill button</Button>
+      <Button variant="gray_fill" size="sm" disabled>gray fill disabled button</Button>
     </ThemeProvider>
   );
 }
