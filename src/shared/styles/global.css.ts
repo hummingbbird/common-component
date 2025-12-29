@@ -32,8 +32,6 @@ export const rootStyle = style({
   width: "1920px",
   margin: "0 auto",
   minHeight: "100dvh",
-  minWidth: "var(--min-width)",
-  maxWidth: "var(--max-width)",
   backgroundColor: "white",
 });
 
